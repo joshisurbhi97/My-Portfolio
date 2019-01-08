@@ -1,0 +1,583 @@
+
+
+@media (max-width: 767px){
+    .banner-content {
+        margin-top: 6rem!important;
+      }
+    .banner-text {
+        margin-top: 0!important;
+        margin-bottom: 30px;
+      }
+    .banner-text h1 {
+        font-size: 28px!important;
+    }
+    .banner-text h3 {
+        margin: 15px 0!important;
+      }
+      .banner-text h3 a {
+        font-size: 18px!important;
+      }
+      .banner-text p {
+        font-size:14px!important;
+      }
+      .banner-text ul {
+        margin-top: 20px!important;
+      }
+      #banner .parallax .parallax2 .parallax-shape:before {
+     
+        border-top: 50px solid transparent!important;
+      }
+      #banner .parallax .parallax2 .parallax-shape::after {
+        border-top: 50px solid transparent!important;
+      }
+      #about {
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+      
+      }
+      .about-text p {
+        font-size: 14px!important;
+      }
+      .about-text .btn {
+        padding: 8px 19px;
+        font-size: 14px;
+    }
+    .about-skills {
+        margin-top: 40px!important;
+    }
+    .progress {
+        margin-bottom: 30px !important;
+    }
+    #portfolio{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+      }
+      .portfolio-text{
+        margin-bottom: 20px!important;
+      }
+      .portfolio-text h3 {
+        font-size: 30px!important;
+        margin-bottom: 35px!important;
+    }
+    .portfolio-text h3::before{
+        bottom: -21px!important;
+      }
+      .portfolio-text p {
+        font-size: 14px!important;
+    }
+    .controls ul li  {
+        padding: 7px 17px;
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    .hire-me{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+    }
+    #contact{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+      }
+      .contact-text {
+        margin-bottom: 40px!important;
+    }
+    .contact-text h3 {
+        font-size: 30px!important;
+        margin-bottom: 35px!important;
+    }
+    .contact-text h3::before{
+    
+        bottom: -21px!important;
+
+      }
+      .contact-text p {
+        font-size: 14px!important;
+    }
+    .contact-info {
+        margin-bottom: 30px!important;
+    }
+    .contact-info p {
+        font-size: 14px!important;
+    }
+    .lets-connect {
+        margin-bottom: 30px;
+    }
+   #footer p {
+        font-size: 14px!important;
+    }
+    #services{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+      }
+   
+    .services-text h3 {
+        font-size: 30px!important;
+        margin-bottom: 35px!important;
+    }
+    .services-text h3::before{
+    
+        bottom: -21px!important;
+
+      }
+      .services-text p {
+        font-size: 14px!important;
+    }
+    .services-info {
+        margin-top: 30px!important;
+    }
+    .services-info p {
+        font-size: 14px!important;
+    }
+    }
+    @media (max-width: 991px){
+        .navbar-collapse {
+            background: #000;
+            margin-top: 20px;
+            padding: 15px 20px;
+        }
+        .navbar-light .navbar-nav .nav-item {
+            text-align:center!important;
+            padding: 8px 0!important;
+        }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+        #banner .parallax .parallax2 .bg-scrollNavbar .navbar-nav .nav-link {
+            
+            color: #ffffff!important;
+           }
+          #banner .parallax .parallax2 .bg-scrollNavbar .navbar-nav .nav-link:hover {
+            color: #000000!important;
+          }
+          #banner .parallax .parallax2 .bg-scrollNavbar .navbar-nav .nav-link:before {
+            border-top: 1px solid #ffffff!important;
+            border-bottom: 1px solid #ffffff!important;
+          }
+          #banner .parallax .parallax2 .bg-scrollNavbar .navbar-nav .nav-link:after {
+            background: #ffffff!important;
+          }
+          .navbar-light .navbar-toggler {
+            color: #fff!important;
+            border-color: #fff;
+            background: transparent;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        .navbar-light .navbar-toggler:hover {
+            background: #000;
+            border-color: #000;
+        }
+    }
+@media (max-width: 991px) and (min-width: 768px) {
+    #banner .parallax {
+            height: 700px!important;
+        min-height: 700px!important;
+      }
+      #banner .parallax .parallax2 {
+        height: 700px!important;
+        min-height: 700px!important;
+     }
+    .banner-content {
+        margin-top: 9rem!important;
+      }
+      .banner-text {
+        margin-top: 2rem!important;
+      }
+    .banner-text h1 {
+        font-size: 40px!important;
+    }
+    .banner-text h3 {
+        margin: 15px 0!important;
+      }
+    .banner-text h3 a {
+        font-size: 25px!important;
+      }
+     
+      .banner-text p {
+        line-height: 1.5;
+        font-size:.9rem!important;
+      }
+      
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    
+}
+@media (min-width: 1200px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing:border-box;
+}
+
+.parallax{
+
+    background: url(/images/01.jpg) no-repeat center;
+    height: 900px;
+    min-height: 900px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax2{
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-background-color: rgba(0, 0, 0, 0.5);
+    height: 900px;
+    min-height: 900px;
+    margin-top: -15px;
+    overflow: hidden;
+   
+}
+.parallax-shape{
+    position:relative;
+    width:100%;
+    height:0;
+    top:100%;   
+}
+.parallax-shape:before{
+    content: "";
+    border-right: 50vw solid #fff;
+    border-top: 160px solid transparent;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.parallax-shape::after {
+    content: '';
+    position: absolute;
+    border-left: 50vw solid #fff;
+    border-top: 160px solid transparent;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 0;
+}
+.bg-light {
+    background-color:rgba(255,255,255,0) !important;
+}
+
+
+.bg-fixNavbar{
+    background-color: rgba(255,255,255,0)
+}
+.bg-scrollNavbar{
+    background-color: #fff
+}
+
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    border: 4px solid #fff;
+    padding: 5px 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform:uppercase;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+    background: #000;
+    border-color: #000;
+    border-radius: 3px;
+}
+.navbar-light .navbar-nav .nav-item {
+    padding: 0 19px;
+}
+.navbar-light .bg-fixNavbar .navbar-nav .nav-link {
+    color: #fff;
+  position: relative;
+    font-size: 13px;
+    display:inline-block;
+   font-weight:bold;
+    text-transform:capitalize;
+}
+.navbar-light .bg-scrollNavbar .navbar-nav .nav-link {
+    color: #000;
+  position: relative;
+    font-size: 13px;
+    display:inline-block;
+   font-weight:bold;
+    text-transform:capitalize;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+    transition:0.5s;
+    z-index:1;
+}
+
+.navbar-light .navbar-nav .nav-link:before {
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+border-top:1px solid #fff;
+border-bottom:1px solid #fff;
+transform:scaleY(2);
+opacity:0;
+transition:0.5s;
+z-index:-1;
+
+}
+.navbar-light .navbar-nav .nav-link:hover:before {
+  
+  transform:scaleY(1.2);
+  opacity:1;
+  
+  }
+  .navbar-light .navbar-nav .nav-link:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  background:#fff;
+  transform:scale(0);
+  transition:0.5s;
+  z-index:-1;
+  
+  }
+  .navbar-light .navbar-nav .nav-link:hover:after { 
+    transform:scale(1);
+ } */
+ .my-navbar{
+     transition:.8s;
+ }
+/***********************************************navbar end***********************************************/
+
+
+
+/* .banner-content{
+    margin-top:8rem;
+}
+.banner-text{
+    margin-top:4rem;
+}
+.banner-text h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.banner-text h3 {
+    margin: 25px 0;
+}
+.banner-text h3 a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+.banner-text p {
+    color: #fff;
+    max-width: 760px;
+    line-height: 1.7;
+}
+.banner-text ul{
+    margin-top: 25px;
+    padding: 0;
+    margin: 0;
+}
+.banner-text li{
+    list-style: none;
+    display: inline-block;
+}
+.banner-text ul li a {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    display: inline-block;
+    transition: .4s;
+}
+.banner-text ul li a:hover {
+    background: #000;
+}
+.parallax-img img {
+    max-width: 100%;
+} */
+
+
+
+/***********************************************banner end***********************************************/
+
+
+/***********************************************about start***********************************************/
+
+
+
+/* #about{
+    background:#fff;
+    padding-top:80px;
+    padding-bottom:80px;
+ 
+}
+
+
+.about-text h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.7;
+    font-size: 1.05rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-text ul{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+}
+.about-text li{
+    list-style:none;
+    margin-top: 9px;
+}
+.about-text li:first-child{
+
+    margin-top: 0px;
+}
+.about-text li span{
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+    margin-right: 8px;
+}
+.about-text .btn {
+    margin-top: 25px;
+}
+.about-text .btn-primary.focus, .about-text .btn-primary:focus {
+   background-color: transparent;
+    border-color: #000;
+    color: #000;
+}
+.about-text .btn-primary{
+    background:transparent;
+    border: 2px solid #000;
+    color:#000;
+    transition:.3s;
+   position:relative;
+   overflow: hidden;
+   display:inline-block;
+   font-weight:bold;
+  
+}
+.about-text .btn-primary:before{
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-100%;
+    left:0;
+    background:#000;
+    transition:.3s;
+    opacity:.5;
+}
+
+.about-text .btn-primary:after{
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-100%;
+    left:0;
+    background:#000;
+   transition:.3s;
+   transition-delay: .2s;
+ 
+}
+.about-text .btn-primary:hover:before{
+    z-index:-1;
+    top:0;
+   }
+.about-text .btn-primary:hover:after{
+    z-index:-1;
+    top:0;
+   }
+.about-text .btn-primary:hover{
+    color:#fff!important;
+     z-index:1;
+}
+
+.about-skills{
+    margin-top: 54px;
+}
+.progress-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+.progress {
+    height: 5px;
+    background: rgba(0,0,0,.1);
+    border-radius: 0;
+    margin-bottom: 30px;
+    overflow: visible;
+    box-shadow: none;
+}
+.progress .progress-bar {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 5px solid #000;
+    border-radius: 0;
+    position: relative;
+
+}
+.progress .progress-bar::before {
+    content: "";
+    border-bottom: 15px solid #000;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+.progress-bar .progress-value {
+    font-size: 15px;
+    color: #000;
+    position: absolute;
+    top: -32px;
+    right: 0;
+} */
+/*********************************************about end*********************************************/
